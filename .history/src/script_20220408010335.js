@@ -62,7 +62,7 @@ light1.add(pointLight2, 'intensity').min(0).max(10).step(0.01)
 // Light 3
 
 const pointLight3 = new THREE.PointLight(0xe1ff, 2)
-pointLight3.position.set(2.13, -3, -1.98)
+pointLight3.position.set(0.69, -3, -1.98)
 pointLight3.intensity = 6.8
 
 scene.add(pointLight3)
