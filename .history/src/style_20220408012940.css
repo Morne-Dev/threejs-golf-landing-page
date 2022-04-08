@@ -12,32 +12,27 @@ body
     background: rgb(24, 24, 24)
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .webgl
 {
     position: absolute;
     top: 0;
     left: 0;
     outline: none;
-    mix-blend-mode: exclusion;
 }
 
 .container {
-    height: 80vh;
-    display: grid;
+    height: 100vh;
+    display: gird;
     place-items: center;
 }
 
-h1 {
-    font-size: 6rem;
+.h1 {
+    font-size: 8rem;
     text-transform: uppercase;
     color: white;
-    text-align: center
 }
 
-section {
+
+.section {
     height: 100vh;
 }

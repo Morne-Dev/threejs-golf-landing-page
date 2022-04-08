@@ -12,10 +12,6 @@ body
     background: rgb(24, 24, 24)
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .webgl
 {
     position: absolute;
@@ -26,8 +22,8 @@ body {
 }
 
 .container {
-    height: 80vh;
-    display: grid;
+    height: 100vh;
+    display: flex;
     place-items: center;
 }
 
@@ -35,8 +31,14 @@ h1 {
     font-size: 6rem;
     text-transform: uppercase;
     color: white;
-    text-align: center
 }
+
+p {
+    font-size: 4rem;
+    color: white;
+    display: center;
+}
+
 
 section {
     height: 100vh;

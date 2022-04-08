@@ -155,7 +155,7 @@ function onDocumentMouseMove(event) {
 }
 
 const updateSphere = (event) => {
-    sphere.position.y = window.scrollY * .001
+    sphere.position.y = window.scrollY * 001
 }
 
 window.addEventListener('scroll', updateSphere);
@@ -175,7 +175,7 @@ const tick = () =>
 
     sphere.rotation.y += .5 * (targetX - sphere.rotation.y)
     sphere.rotation.x += .05 * (targetY - sphere.rotation.x)
-    sphere.position.z += -.09 * (targetY - sphere.rotation.x)
+    sphere.rotation.z += -.05 * (targetY - sphere.rotation.x)
 
     // Update Orbital Controls
     // controls.update()

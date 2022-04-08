@@ -155,7 +155,7 @@ function onDocumentMouseMove(event) {
 }
 
 const updateSphere = (event) => {
-    sphere.position.y = window.scrollY * .001
+    sphere.position.x = window.scrollX * .001
 }
 
 window.addEventListener('scroll', updateSphere);
